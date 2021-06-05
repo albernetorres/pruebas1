@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\test"
+		},
+		{
+			"path": "..\\Documentacion"
+		},
+		{
+			"name": "Tesis",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"editor.formatOnSave": true
+	}
+}

@@ -1,0 +1,26 @@
+#Entorno virtual
+
+## Instalación del software del entorno virtual
+pip3 install virtualenvwrapper
+
+## Creación entorno virtual
+mkvirtualenv <my_django_environment>
+
+## Otros comandos
+- deactivate — Salir del entorno virutal Python actual
+- workon — Listar los entornos virtuales disponibles
+- workon name_of_environment — Activar el entorno virtual Python especificado
+- rmvirtualenv name_of_environment — Borrar el entorno especificado.
+
+#Instalacion my_django_environment
+activate <my_django_environment>
+pip3 install django
+
+## Creación del proyecto
+django-admin startproject mytestsite
+
+## Ejecusion del proyecto en el servidor
+cd mytestsite
+python manage.py runserver
+python manage.py runserver 5050 -- Inicia el servidor en el puerto 5050
+python manage.py startapp main -- Crea una carpeta que contiene una copia del proyecto principal
