@@ -1,14 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'pm-root',
- // templateUrl: './app.component.html',
-  //styleUrls: ['./app.component.css']
-  template: `<h1>{{title}}</h1> 
-    <div [innerHTML]="menu">{{menu}}</div>
-  `
+  selector : "pm-root",
+  templateUrl: "./app.component.html"
 })
-export class AppComponent {
-  title: string = 'Primera practica de angular';
-  menu: string = `<ul><li>Inicio</li><li>opciones <ul><li>opcion 1</li><li>opcion 2</li></ul></li></ul>`;
+export class AppComponent implements OnInit {
+  
+  title: string = "Pagina de prueba";
+  menu: string = "<h4>HTLM injectado!</h4>";
+
+  ngOnInit(): void {
+    console.log("Principal")
+  }
+
 }
+

@@ -94,3 +94,10 @@ Paso 2: Registro del componetne
 })
 
 Nota: Observar que el nombre del componente se debe agragar en la seccion de **declarations** del decorador y en algunas ocasiones tambien se agraga en la seccion de **bootstrap**. Ademas, que el nombre del componente debe ser el mismo de la clase. Ademas, el nombre del componentes no van entre comillas.
+
+
+## Componentes y recursos
+Fuentes e iconos : https://fontawesome.com/
+Iconos y plantillas: https://getbootstrap.com/
+### intalacion de librerias
+nmp install bootstrap font-awesome
